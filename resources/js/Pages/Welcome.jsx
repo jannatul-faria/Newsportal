@@ -3,10 +3,12 @@ import React, { useState, useEffect } from 'react';
 import MainLayout from '@/Layouts/MainLayout'
 import Header from '../Components/Frontend/Header';
 import PostsSection from '../Components/Frontend/PostsSection';
+import LatestArticles from '@/Components/Frontend/LatestArticles';
 import post01 from '@/Assets/images/post-01.jpg';
 import post02 from '@/Assets/images/post-02.jpg';
 import post03 from '@/Assets/images/post-03.jpg';
 import post04 from '@/Assets/images/post-04.jpg';
+import Footer from '@/Components/Frontend/Footer';
 
 
  function Welcome({ auth, laravelVersion, phpVersion }) {
@@ -202,7 +204,9 @@ import post04 from '@/Assets/images/post-04.jpg';
                     </div>
                 </section>
                 <PostsSection/>
+                <LatestArticles/>
             </MainLayout>
+            <Footer/>
         </>
     );
 }
