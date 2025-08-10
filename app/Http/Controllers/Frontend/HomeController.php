@@ -21,7 +21,7 @@ class HomeController extends Controller
             ->latest()
             ->paginate(10);
 
-        return Inertia::render('Home', [
+        return Inertia::render('Welcome', [
             'featured' => $featured,
             'latest'   => $latest
         ]);
