@@ -10,7 +10,6 @@ import post03 from '@/Assets/images/post-03.jpg';
 import post04 from '@/Assets/images/post-04.jpg';
 import Footer from '@/Components/Frontend/Footer';
 
-
  function Welcome({ auth, laravelVersion, phpVersion }) {
     const headlines = [
         "Interest rate angst trips up US equity bull market",
