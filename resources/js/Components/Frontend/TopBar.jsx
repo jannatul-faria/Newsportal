@@ -21,11 +21,12 @@ export default function TopBar() {
 
           <Link href="#" className="left-topbar-item">About</Link>
           <Link href="#" className="left-topbar-item">Contact</Link>
-          <Link href="#" className="left-topbar-item">Sign up</Link>
-          <Link href="#" className="left-topbar-item">Log in</Link>
+          <Link href="register" className="left-topbar-item">Sign up</Link>
+          <Link href="login" className="left-topbar-item">Log in</Link>
         </div>
 
         <div className="right-topbar">
+          <Link href="dashboard"className="left-topbar-item">Dashboard</Link>
           <Link href="#"><span className="fab fa-facebook-f"></span></Link>
           <Link href="#"><span className="fab fa-twitter"></span></Link>
           <Link href="#"><span className="fab fa-pinterest-p"></span></Link>
